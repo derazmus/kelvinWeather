@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<html lang="en-us">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Kelvin to Fahrenheit Converter</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
@@ -12,16 +13,21 @@
 
     <h1> Kelvin to Fahrenheit Converter</h1>
 
-    <input type="text">
-    <button>submit</button>
+    <input type="text" placeholder="Kelvin Temp"id="kTemp">
+    <button onclick=convert()>submit</button>
     <br>
     <br>
-    <input type="text">
-    <button>submit</button>
 
+    <h2> Temp in Fahrenheit:</h2>
 </body>
 
 <script type="text/javaScript">
+
+function convert() {
+var kelvin = document.getElementById('kTemp');
+console.log(kelvin);
+
+}
 
 </script>
 
